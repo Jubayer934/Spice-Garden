@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <div class="logo">Spice Garden</div>
+                <p class="tagline">Dream bigger, code better.</p>
+            </div>
+
+            <!-- Wrap toggle + links together -->
+            <div class="nav-menu">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <hr />
+
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="img/logo.png" height="400" width="300" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h1>Welcome to Spice Garden</h1>
+            <p>Spice Garden is a vibrant and aromatic haven for spice enthusiasts. We offer a wide variety of
+                high-quality spices sourced from around the world, perfect for adding flavor and excitement to your
+                culinary creations. Whether you're a seasoned chef or a home cook, our collection of spices will
+                inspire you to explore new flavors and elevate your dishes to new heights. Join us on a flavorful
+                journey and discover the magic of spices at Spice Garden.</p>
+        </div>
+    </section>
+
+    <hr />
+
+
+    <section id="menu" class="menu">
+        <h2>Our Popular Dishes</h2>
+        <div class="menu-container">
+
+            <div class="menu-item">
+                <img src="img/Spicy Chicken Curry.jpg" alt="Spicy Chicken Curry">
+                <div class="menu-item-info">
+                    <h3>🍛 Spicy Chicken Curry</h3>
+                    <p>A flavorful chicken curry made with cumin, coriander and turmeric. Served with steamed rice.</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/vegetable-stir-fry.jpeg" alt="Vegetable Stir-Fry">
+                <div class="menu-item-info">
+                    <h3>🥗 Vegetable Stir-Fry</h3>
+                    <p>A colorful stir-fry with fresh vegetables in a savory ginger-garlic sauce. Served with noodles.
+                    </p>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/spiced-lentil-soup.jpg" alt="Spiced Lentil Soup">
+                <div class="menu-item-info">
+                    <h3>🍲 Spiced Lentil Soup</h3>
+                    <p>A hearty lentil soup seasoned with cumin, paprika and cinnamon. Perfect for chilly days.</p>
+                    <span class="price">$7.99</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <hr />
+
+
+    <section id="reviews" class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews-container">
+
+        <div class="review-item">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <p class="review-text">"The spices from Spice Garden are incredible! They have transformed my cooking
+                and added so much flavor to my dishes. Highly recommend!"</p>
+            <p class="reviewer-name">— Sarah M.</p>
+        </div>
+
+        <div class="review-item">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <p class="review-text">"I love the variety of spices available at Spice Garden. The quality is
+                top-notch, and the customer service is excellent. I will definitely be a repeat customer!"</p>
+            <p class="reviewer-name">— John D.</p>
+        </div>
+
+        <div class="review-item">
+            <span class="stars">⭐⭐⭐⭐</span>
+            <p class="review-text">"Spice Garden has become my go-to place for all my spice needs. The flavors
+                are authentic, and the prices are reasonable. I can't imagine cooking without their spices!"</p>
+            <p class="reviewer-name">— Emily R.</p>
+        </div>
+
+    </div>
+</section>
+
+    <hr />
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+
+        <!-- Left side — info -->
+        <div class="contact-info">
+            <p>📞 <strong>Phone:</strong> +880 1700-000000</p>
+            <p>📧 <strong>Email:</strong> info@spicegarden.com</p>
+            <p>📍 <strong>Address:</strong> 12 Food Street, Dhaka, Bangladesh</p>
+            <p>🕐 <strong>Hours:</strong> Mon–Sat, 9am – 10pm</p>
+        </div>
+
+        <!-- Right side — form -->
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Support</a>
+    </div>
+    <p>&copy; 2025 Spice Garden. All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>
