@@ -1,5 +1,5 @@
 ## 🌐 Live Demo
  
-[Visit](https://spice-garden.netlify.app/)
+[Visit](https://spaice-garden.netlify.app/)
  
 **Hosted on:** [Netlify](https://netlify.com)
